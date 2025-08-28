@@ -1,9 +1,8 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 
 import bgImage from "@/assets/car.jpg";
-import Image from "next/image";
-import { Parallax } from "react-parallax";
-
 
 
 const HowitWorks = () => {

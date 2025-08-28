@@ -64,7 +64,7 @@
         },
 
         "how_it_works": {
-            "title":"How It Works",
+            "title": "How It Works",
             "step1": {
                 "title": "Selection",
                 "description": "Select your departure and arrival points, make sure to add all the services you need, check the cost and book."
@@ -78,32 +78,28 @@
                 "description": "Waiting for you at your arrival point will be your driver with your name on a board ready to take you to your destination."
             }
         },
-        "tourSection": {
+        "day_tour": {
             "title": "Tour in a day",
-            "description": "Take the tour of a lifetime on your vacation of a lifetime! Whether you are looking for an incredible food and wine tasting experience, visiting ancient ruins or explore enchanting towns in Italy, Civitavecchia Cab Service Rome Tours is the premier tour company in Rome that specializes in private day tours and shore excursions from Italy’s main cruise ports.",
-            "exampleTour": {
-                "title": "Tour Example: Rome in a Day from Civitavecchia Harbour",
-                "details": [
-                    "Pick up beside your Cruise ship at 7:00am or 8:00am.",
-                    "After about 1½ hours depending on traffic, you will reach Rome.",
-                    "Visit: St. Peter’s Square, Trevi Fountain, Pantheon, Piazza Navona, Spanish Steps, Colosseum, Circus Maximus, Roman Forum, Terrace of Gianicolo and Acqua Paola Fountain.",
-                    "Lunch break included in plan.",
-                    "Return to ship around 4:00pm/5:00pm depending on starting time."
-                ],
-                "stops": [
-                    "Colosseum",
-                    "Pantheon",
-                    "Piazza Navona",
-                    "Il Vittoriano",
-                    "The Trevi Fountain",
-                    "Spanish Steps",
-                    "St. Peter",
-                    "Circus Maximus",
-                    "Roman Forum",
-                    "Terrace of Gianicolo and Acqua Paola Fountain"
-                ]
-            },
-            "ctaButton": "FIND OUT MORE"
+            "introduction": "Take the tour of a lifetime on your vacation of a lifetime! Whether you are looking for an incredible food and wine tasting experience, visiting ancient ruins, or explore enchanting towns in Italy, Civitavecchia Cab Service Rome Tours is the premier tour company in Rome that specializes in private day tours and shore excursions from Italy’s main cruise ports.",
+            "tour_example_title": "Tour Example: Rome in a Day from Civitavecchia Harbour",
+            "customization": "you can choose the specific spot you don’t want to miss in Rome! Our work is to understand what you want to see and drive by or stop in specific place for give to you the best suggestive and experience tour in the eternal city.",
+            "detailed_itinerary": "EXAMPLE: Pick up beside your Cruise ship at 7:00am or 8:00am. After about 1 ½ hours (depending on traffic) you will reach your first stop, example visit St. Peter's Square rebuilt and redesigned thanks to Gian Lorenzo Bernini between 1656 and 1667. You can continue your visit to the second stop We will drive you to the Pantheon, We will continue our tour through Piazza Navona, built on the old stadium of Diocletian which was used for atlethic competitions. Today you can admire The Fountain of the Four Rivers, the Fountain of Neptune and the Church of St. Agnes in Agony on Navona's square. stop you don’t want to miss is the Colosseum (Flavian Amphitheatre) you will travel along the Fori Imperiali to the Piazza Venezia where you can admire The Vittoriano (the weeding cake) and the balcony from which Benito Mussolini declared the world war II against France and Britain. then Via del Corso we will take you to the Trevi Fountain, tof Nicola Salvi. The artist was responsible for the construction of the fountain in the eighteenth century after winning a competition organised by Pope Clement XII. then we will guide you through the Spanish Steps where you can admire the famous Spanish Steps and the Fountain la barchetta by Pietro Bernini (Gian Lorenzo's father) and further on to Piazza del Popolo and its obelisk. The tour will conclude at 15:30 / 16:00 when we will be going back to the port of Civitavecchia. You'll be ready to embark and continue your cruise at about 17:00.",
+            "pickup_time": "Pick up beneath the ship: 7:00am/8:00 am",
+            "arrival_time": "Arrival to Rome: 8:30am/9:30 am",
+            "departure_time": "Departure from Rome: 3:00pm/4:00pm (depending on the starting time)",
+            "return_time": "Arrival to the Port: 4:00pm/5:00pm (depending on the starting time)",
+            "recommendations_intro": "First time in Rome? Don't miss these stops!",
+            "recommendation_1": "Colosseum",
+            "recommendation_2": "Pantheon",
+            "recommendation_3": "Piazza Navona",
+            "recommendation_4": "Il Vittoriano",
+            "recommendation_5": "The Trevi Fountain",
+            "recommendation_6": "Spanish Steps",
+            "recommendation_7": "St. Peter",
+            "recommendation_8": "Circus Maximus",
+            "recommendation_9": "Roman Forum",
+            "recommendation_10": "Terrace of Gianicolo and Acqua Paola Fountain",
+            "button_text":"Find Out More"
         },
         "contactSection": {
             "options": [
