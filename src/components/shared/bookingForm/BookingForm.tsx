@@ -29,7 +29,7 @@ const BookingForm = () => {
   };
 
     return (
-        <div className="bg-[#112D4E] rounded-3xl w-[90%] p-6 z-50">
+        <div className="bg-[#112D4E] rounded-3xl w-[90%] p-6 z-20">
             <form onSubmit={handleSubmit} className="flex items-center gap-2 w-full">
                 <LocationInput
                     value={pickup}

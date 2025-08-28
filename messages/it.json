@@ -39,6 +39,37 @@
             "note1": "Non paghi nulla ora",
             "note2": "Conferma immediata della prenotazione",
             "review": "Recensioni"
+        },
+        "premium_guest_support": {
+            "title": "Supporto Premium 24/7 per gli Ospiti",
+            "description": "Assistenza clienti per viaggi senza interruzioni, in qualsiasi momento. Discreta, immediata, sempre disponibile."
+        },
+        "services_guarantee": {
+            "title": "Servizi Garantiti al 100%",
+            "description": "Tutti i nostri veicoli sono completamente autorizzati, con aria condizionata e la massima copertura assicurativa."
+        },
+        "meet_and_greet": {
+            "title": "Accoglienza",
+            "description": "Il tuo autista ti aspetterà indipendentemente da ciò che accade."
+        },
+        "free_cancellation": {
+            "title": "Cancellazione Gratuita",
+            "description": "Fino a 24 ore prima del ritiro."
+        },
+
+        "how_it_works": {
+            "step1": {
+                "title": "Selezione",
+                "description": "Seleziona i punti di partenza e arrivo, assicurati di aggiungere tutti i servizi di cui hai bisogno, controlla il costo e prenota."
+            },
+            "step2": {
+                "title": "Conferma",
+                "description": "Riceverai la conferma della prenotazione contenente i tuoi dati personali, il percorso e il nome e numero di telefono del tuo autista via email."
+            },
+            "step3": {
+                "title": "Incontra il tuo Autista",
+                "description": "Al punto di arrivo ti aspetterà il tuo autista con un cartello con il tuo nome, pronto a portarti a destinazione."
+            }
         }
     }
 }

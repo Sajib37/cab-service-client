@@ -34,34 +34,49 @@
                 "airport": "Airports",
                 "cruisePorts": "Cruise Ports",
                 "trainStation": "Train Stations",
-                "Hotel":"Rome Hotel or Address"
+                "Hotel": "Rome Hotel or Address"
             },
             "note1": "Pay nothing now",
             "note2": "Immediate booking confirmation",
             "review": "Reviews"
-            
         },
-        "features": [
-            {
-                "title": "24/7 Premium Guest Support",
-                "description": "Customer Care for immediate assistance: anytime, anywhere, flights monitoring, delays handled."
+
+        "services": {
+            "title": "Our Services and Benefits",
+            "description": "We offer a wide range of transportation services to meet your needs."
+        },
+
+        "premium_guest_support": {
+            "title": "24/7 Premium Guest Support",
+            "description": "Customer care for seamless journeys, anytime. Discreet, immediate, always available."
+        },
+        "services_guarantee": {
+            "title": "Services Guarantee 100%",
+            "description": "All our vehicles are fully licensed with air-condition and maximum insurance policy."
+        },
+        "meet_and_greet": {
+            "title": "Meet & Greet",
+            "description": "Your driver will be waiting to meet you no matter what happens."
+        },
+        "free_cancellation": {
+            "title": "Free Cancellation",
+            "description": "Up to 24 hours before pickup."
+        },
+
+        "how_it_works": {
+            "title":"How It Works",
+            "step1": {
+                "title": "Selection",
+                "description": "Select your departure and arrival points, make sure to add all the services you need, check the cost and book."
             },
-            {
-                "title": "Services are guarantee 100%",
-                "description": "All vehicles are fully licensed with maximum insurance and maximum permission to access ZTL."
+            "step2": {
+                "title": "Confirmation",
+                "description": "You will receive your booking confirmation containing your personal details, route and name and telephone number of your driver via email."
             },
-            {
-                "title": "Meet & greet",
-                "description": "Our driver will be waiting to meet you near where you disembark."
-            },
-            {
-                "title": "Free cancellation",
-                "description": "Up to 24 hours before pickup."
+            "step3": {
+                "title": "Meet Your Driver",
+                "description": "Waiting for you at your arrival point will be your driver with your name on a board ready to take you to your destination."
             }
-        ],
-        "howItWorks": {
-            "title": "How it works",
-            "description": "Select your departure and arrival points, make sure to add all the services you need, check the cost and book. You will receive your booking confirmation containing your personal details, route names and telephone number of your driver. When you arrive at your port your driver will have your name on a board ready to take you directly to your destination."
         },
         "tourSection": {
             "title": "Tour in a day",

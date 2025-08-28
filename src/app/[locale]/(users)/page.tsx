@@ -1,5 +1,7 @@
 "use client";
 
+import HowitWorks from "@/components/home/HowitWorks";
+import Services from "@/components/home/Services";
 import Banner from "@/components/shared/Banner";
 import BookingForm from "@/components/shared/bookingForm/BookingForm";
 import TripAdvisor from "@/components/shared/bookingForm/TripAdvisor";
@@ -17,7 +19,10 @@ export default function Home() {
                     <BookingForm></BookingForm>
                     <TripAdvisor/>
                 </div>
-            </section>          
+            </section>
+
+            <Services />
+            <HowitWorks/>
         </section>
     );
 }

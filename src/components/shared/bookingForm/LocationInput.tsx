@@ -34,7 +34,8 @@ const LocationInput = ({ className, label, value, onChange }: LocationInputProps
             </legend>
 
             <input
-                type="text"
+          type="text"
+          required
                 value={value || query}
                 placeholder={t("searchForm.dropoff.placeholder")}
                 onChange={(e) => {
