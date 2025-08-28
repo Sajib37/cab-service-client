@@ -1,6 +1,121 @@
 {
-    "homepage":{
-        "title": "Welcome to Our Website",
-        "description": "This is the homepage of our amazing website."
+    "homepage": {
+        "header": {
+            "navigation": {
+                "home": "Home",
+                "feedback": "Feedback",
+                "tours": "Tours",
+                "contacts": "Contacts",
+                "travelAgencies": "Travel agencies"
+            },
+            "languageSelector": {
+                "en": "English",
+                "it": "Italian"
+            }
+        },
+        "heroSection": {
+            "tagline": "Since 1978 Top Quality services at affordable prices!",
+            "searchForm": {
+                "pickup": {
+                    "label": "Pick-up",
+                    "placeholder": "airport, hotel, address..."
+                },
+                "dropoff": {
+                    "label": "Drop-off",
+                    "placeholder": "airport, hotel, address..."
+                },
+                "passengers": {
+                    "label": "Passengers",
+                    "placeholder": "Number of passengers"
+                },
+                "buttonText": "GET INSTANT QUOTE"
+            },
+            "locations": {
+                "airport": "Airports",
+                "cruisePorts": "Cruise Ports",
+                "trainStation": "Train Stations",
+                "Hotel":"Rome Hotel or Address"
+            },
+            "note1": "Pay nothing now",
+            "note2": "Immediate booking confirmation",
+            "review": "Reviews"
+            
+        },
+        "features": [
+            {
+                "title": "24/7 Premium Guest Support",
+                "description": "Customer Care for immediate assistance: anytime, anywhere, flights monitoring, delays handled."
+            },
+            {
+                "title": "Services are guarantee 100%",
+                "description": "All vehicles are fully licensed with maximum insurance and maximum permission to access ZTL."
+            },
+            {
+                "title": "Meet & greet",
+                "description": "Our driver will be waiting to meet you near where you disembark."
+            },
+            {
+                "title": "Free cancellation",
+                "description": "Up to 24 hours before pickup."
+            }
+        ],
+        "howItWorks": {
+            "title": "How it works",
+            "description": "Select your departure and arrival points, make sure to add all the services you need, check the cost and book. You will receive your booking confirmation containing your personal details, route names and telephone number of your driver. When you arrive at your port your driver will have your name on a board ready to take you directly to your destination."
+        },
+        "tourSection": {
+            "title": "Tour in a day",
+            "description": "Take the tour of a lifetime on your vacation of a lifetime! Whether you are looking for an incredible food and wine tasting experience, visiting ancient ruins or explore enchanting towns in Italy, Civitavecchia Cab Service Rome Tours is the premier tour company in Rome that specializes in private day tours and shore excursions from Italy’s main cruise ports.",
+            "exampleTour": {
+                "title": "Tour Example: Rome in a Day from Civitavecchia Harbour",
+                "details": [
+                    "Pick up beside your Cruise ship at 7:00am or 8:00am.",
+                    "After about 1½ hours depending on traffic, you will reach Rome.",
+                    "Visit: St. Peter’s Square, Trevi Fountain, Pantheon, Piazza Navona, Spanish Steps, Colosseum, Circus Maximus, Roman Forum, Terrace of Gianicolo and Acqua Paola Fountain.",
+                    "Lunch break included in plan.",
+                    "Return to ship around 4:00pm/5:00pm depending on starting time."
+                ],
+                "stops": [
+                    "Colosseum",
+                    "Pantheon",
+                    "Piazza Navona",
+                    "Il Vittoriano",
+                    "The Trevi Fountain",
+                    "Spanish Steps",
+                    "St. Peter",
+                    "Circus Maximus",
+                    "Roman Forum",
+                    "Terrace of Gianicolo and Acqua Paola Fountain"
+                ]
+            },
+            "ctaButton": "FIND OUT MORE"
+        },
+        "contactSection": {
+            "options": [
+                {
+                    "type": "Call",
+                    "value": "+39 06 523 72515"
+                },
+                {
+                    "type": "Whatsapp",
+                    "value": "+39 06 523 72515"
+                },
+                {
+                    "type": "Email",
+                    "value": "web@civitavecchiacabservice.com"
+                }
+            ]
+        },
+        "footer": {
+            "siteMap": ["Feedback", "Tours", "Contacts", "Travel agencies"],
+            "legal": ["Terms & Conditions", "Privacy Policy", "Cookie Policy"],
+            "companyInfo": {
+                "name": "Civitavecchia Cab Service",
+                "address": "Via Cesare Pascarella 29, 00153 - Roma, Italy",
+                "PIVA": "P.I : 11198811004"
+            },
+            "socialMedia": ["Facebook", "Instagram", "Twitter"],
+            "extra": "Online"
+        }
     }
 }

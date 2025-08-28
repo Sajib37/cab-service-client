@@ -5,8 +5,10 @@ const Index = () => {
     const t = useTranslations("homepage");
     return (
         <div>
-          <h1>{t('title')}</h1>
-          <p>{t('description')}</p>
+          <div>
+                <h1 className="text-2xl font-bold">{t("heroSection.tagline")}</h1>
+                
+        </div>
         </div>
     );
 };

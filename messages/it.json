@@ -1,6 +1,44 @@
 {
-  "homepage": {
-    "title": "Benvenuto nel nostro sito web",
-    "description": "Questa è la homepage del nostro fantastico sito web."
-  }
+    "homepage": {
+        "header": {
+            "navigation": {
+                "home": "Home",
+                "feedback": "Feedback",
+                "tours": "Tour",
+                "contacts": "Contatti",
+                "travelAgencies": "Agenzie di viaggio"
+            },
+            "languageSelector": {
+                "en": "Inglese",
+                "it": "Italiano"
+            }
+        },
+        "heroSection": {
+            "tagline": "Dal 1978 servizi di alta qualità a prezzi convenienti!",
+            "searchForm": {
+                "pickup": {
+                    "label": "Partenza",
+                    "placeholder": "aeroporto, hotel, indirizzo..."
+                },
+                "dropoff": {
+                    "label": "Arrivo",
+                    "placeholder": "aeroporto, hotel, indirizzo..."
+                },
+                "passengers": {
+                    "label": "Passeggeri",
+                    "placeholder": "numero di passeggeri"
+                },
+                "buttonText": "OTTIENI PREVENTIVO IMMEDIATO"
+            },
+            "locations": {
+                "airport": "Aeroporti",
+                "cruisePorts": "Porti Crociere",
+                "trainStation": "Stazioni Ferroviarie",
+                "Hotel": "Hotel o indirizzo a Roma"
+            },
+            "note1": "Non paghi nulla ora",
+            "note2": "Conferma immediata della prenotazione",
+            "review": "Recensioni"
+        }
+    }
 }
