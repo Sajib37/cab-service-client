@@ -1,5 +1,7 @@
 "use client";
 
+import Contact from "@/components/home/Contact";
+import DayTour from "@/components/home/DayTour";
 import HowitWorks from "@/components/home/HowitWorks";
 import Services from "@/components/home/Services";
 import Banner from "@/components/shared/Banner";
@@ -22,7 +24,9 @@ export default function Home() {
             </section>
 
             <Services />
-            <HowitWorks/>
+            <HowitWorks />
+            <DayTour />
+            <Contact />
         </section>
     );
 }

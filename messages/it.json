@@ -40,6 +40,11 @@
             "note2": "Conferma immediata della prenotazione",
             "review": "Recensioni"
         },
+        "services": {
+            "title": "I nostri servizi e vantaggi",
+            "description": "Offriamo una vasta gamma di servizi di trasporto per soddisfare le tue esigenze."
+        },
+
         "premium_guest_support": {
             "title": "Supporto Premium 24/7 per gli Ospiti",
             "description": "Assistenza clienti per viaggi senza interruzioni, in qualsiasi momento. Discreta, immediata, sempre disponibile."
@@ -58,6 +63,7 @@
         },
 
         "how_it_works": {
+            "title": "Come funziona",
             "step1": {
                 "title": "Selezione",
                 "description": "Seleziona i punti di partenza e arrivo, assicurati di aggiungere tutti i servizi di cui hai bisogno, controlla il costo e prenota."
@@ -71,7 +77,7 @@
                 "description": "Al punto di arrivo ti aspetterà il tuo autista con un cartello con il tuo nome, pronto a portarti a destinazione."
             }
         },
-                "day_tour": {
+        "day_tour": {
             "title": "Tour in a day",
             "introduction": "Take the tour of a lifetime on your vacation of a lifetime! Whether you are looking for an incredible food and wine tasting experience, visiting ancient ruins, or explore enchanting towns in Italy, Civitavecchia Cab Service Rome Tours is the premier tour company in Rome that specializes in private day tours and shore excursions from Italy’s main cruise ports.",
             "tour_example_title": "Tour Example: Rome in a Day from Civitavecchia Harbour",
@@ -92,7 +98,22 @@
             "recommendation_8": "Circus Maximus",
             "recommendation_9": "Roman Forum",
             "recommendation_10": "Terrace of Gianicolo and Acqua Paola Fountain",
-            "button_text":"Find Out More"
+            "button_text": "Find Out More"
+        },
+        "contactSection": {
+            "title": "Contattaci",
+            "call": {
+                "type": "Chiamata",
+                "value": "+39 06 523 72515"
+            },
+            "whatsapp": {
+                "type": "WhatsApp",
+                "value": "+39 06 523 72515"
+            },
+            "email": {
+                "type": "Email",
+                "value": "web@civitavecchiacabservice.com"
+            }
         }
     }
 }
