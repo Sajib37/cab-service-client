@@ -7,6 +7,7 @@ import Services from "@/components/home/Services";
 import Banner from "@/components/shared/Banner";
 import BookingForm from "@/components/shared/bookingForm/BookingForm";
 import TripAdvisor from "@/components/shared/bookingForm/TripAdvisor";
+import Footer from "@/components/shared/Footer";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
             <HowitWorks />
             <DayTour />
             <Contact />
+            <Footer />
         </section>
     );
 }

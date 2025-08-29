@@ -117,16 +117,28 @@
             }
         },
 
-
         "footer": {
-            "siteMap": ["Feedback", "Tours", "Contacts", "Travel agencies"],
-            "legal": ["Terms & Conditions", "Privacy Policy", "Cookie Policy"],
+            "siteMap": {
+                "feedback": "Feedback",
+                "tours": "Tours",
+                "contacts": "Contacts",
+                "travelAgencies": "Travel agencies"
+            },
+            "legal": {
+                "terms": "Terms & Conditions",
+                "privacy": "Privacy Policy",
+                "cookies": "Cookie Policy"
+            },
             "companyInfo": {
                 "name": "Civitavecchia Cab Service",
                 "address": "Via Cesare Pascarella 29, 00153 - Roma, Italy",
                 "PIVA": "P.I : 11198811004"
             },
-            "socialMedia": ["Facebook", "Instagram", "Twitter"],
+            "socialMedia": {
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter"
+            },
             "extra": "Online"
         }
     }
