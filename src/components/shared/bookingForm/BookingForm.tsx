@@ -7,65 +7,66 @@ import { useState } from "react";
 const BookingForm = () => {
     const t = useTranslations("homepage.heroSection");
 
+    const [pickup, setPickup] = useState("");
+    const [dropoff, setDropoff] = useState("");
+    const [passenger, setPassenger] = useState("");
+    const options = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-  const [pickup, setPickup] = useState("");
-  const [dropoff, setDropoff] = useState("");
-  const [passenger, setPassenger] = useState("");
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
 
+        const formData = {
+            pickup,
+            dropoff,
+            passenger,
+        };
+        console.log(formData);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-
-    const formData = {
-        pickup,
-        dropoff,
-        passenger
-      };
-      console.log(formData)
-
-    setPickup("");
-    setDropoff("");
-    setPassenger("");
-  };
+        setPickup("");
+        setDropoff("");
+        setPassenger("");
+    };
 
     return (
-        <div className="bg-[#112D4E] rounded-3xl w-[90%] p-6 z-20">
-            <form onSubmit={handleSubmit} className="flex items-center gap-2 w-full">
+        <div className=" mx-auto -mt-8 w-[80%]  ">
+            <form onSubmit={handleSubmit} className="flex px-2  lg:px-0 flex-col gap-1 lg:gap-0 lg:flex-row items-center w-full">
                 <LocationInput
                     value={pickup}
                     onChange={setPickup}
-                    className="w-full px-2 text-xl py-6 rounded-l-3xl bg-white"
                     label={t("searchForm.pickup.label")}
-                    
+                    className="rounded-xl w-full lg:w-1/4 lg:rounded-l-2xl z-40 lg:rounded-r-none"
                 />
                 <LocationInput
                     value={dropoff}
                     onChange={setDropoff}
-                    className="w-full px-2 text-xl py-6 bg-white"
                     label={t("searchForm.dropoff.label")}
+                    className=" rounded-xl w-full lg:w-1/4 lg:rounded-none z-40"
                 />
 
-                <fieldset className="fieldset w-1/4">
-                    <legend className="fieldset-legend text-xl text-white">{ t("searchForm.passengers.label")}</legend>
-                    <select onChange={(e) => setPassenger(e.target.value)}  defaultValue={ t("searchForm.passengers.placeholder")} className="select h-20 text-xl w-full">
-                        <option disabled={true}>{ t("searchForm.passengers.placeholder")}</option>
-                        <option value={1}>1</option>
-                        <option value={2}>2</option>
-                        <option value={3}>3</option>
-                        <option value={4}>4</option>
-                        <option value={5}>5</option>
+                <fieldset className="fieldset z-40  w-full  lg:px-0 lg:w-1/4">
+                    <select
+                        onChange={(e) => setPassenger(e.target.value)}
+                        defaultValue={t("searchForm.passengers.placeholder")}
+                        className="select h-10 md:h-16 rounded-xl lg:rounded-none text-lg md:text-xl  w-full overflow-y-auto"
+                    >
+                        <option className="text-gray-300" disabled={true}>
+                            {t("searchForm.passengers.placeholder")}
+                        </option>
+                        {options.map((option) => (
+                            <option key={option} value={option}>
+                                {option}
+                            </option>
+                        ))}
                     </select>
                 </fieldset>
 
-                <button type="submit" className="w-1/4 p-2 mt-10 h-20 bg-white rounded-l-none rounded-r-3xl text-lg hover:bg-gray-400">
+                <button
+                    type="submit"
+                    className="w-full lg:w-1/4  p-2 z-40 h-10 md:h-16 cursor-pointer bg-brand-secondary rounded-xl lg:rounded-l-none lg:rounded-r-2xl text-base md:text-lg font-bold text-white hover:bg-brand-secondary/90 transition"
+                >
                     {t("searchForm.buttonText")}
                 </button>
             </form>
-
-            <div className="text-white text-center">
-                <h1>{t("note1")}</h1>
-                <p className="text-[#14FFEC]">{t("note2")}</p>
-            </div>
         </div>
     );
 };

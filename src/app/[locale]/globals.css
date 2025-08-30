@@ -2,13 +2,36 @@
 @plugin "daisyui";
 
 
-.bgPrimary{
-  background-color: "#112D4E"
-}
-.bgSecondary{
-  background-color: "#3F72AF";
+
+@theme inline {
+  --color-brand-primary: #364F6B;
+  --color-brand-secondary: #3FC1C9;
+  --color-brand-accent: #FC5185;
+
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
+.clip-triangle {
+  clip-path: polygon(0% 0%, 80% 0%, 70% 80%, 0% 100%);
+}
+
+.text-effect{
+  background: linear-gradient(to right, #3FC1C9, #FC5185);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_animate 3s linear infinite alternate;
+}
+
+@keyframes gradient_animate {
+  to{
+    background-position: 200%;
+
+  }
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

@@ -51,7 +51,6 @@ const Footer = () => {
 
                     </div>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
-                    <a className="link link-hover">{t("footer.companyInfo.name")}</a>
                     <a className="link link-hover">{t("footer.companyInfo.address")}</a>
                     <a className="link link-hover">{t("footer.companyInfo.PIVA")}</a>
                 </nav>

@@ -23,7 +23,7 @@ const Banner = () => {
             >
                 {slides.map(
                     (slide, index): React.ReactNode => (
-                        <div key={index} className="relative w-full min-h-[calc(100vh-6rem)]">
+                        <div key={index} className="relative w-full min-h-[60vh]">
                             <Image
                                 src={slide}
                                 alt={`Slide ${index + 1}`}
