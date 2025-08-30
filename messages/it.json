@@ -1,144 +1,48 @@
 {
-    "homepage": {
-        "header": {
-            "navigation": {
-                "home": "Home",
-                "feedback": "Feedback",
-                "tours": "Tour",
-                "contacts": "Contatti",
-                "travelAgencies": "Agenzie di viaggio"
-            },
-            "languageSelector": {
-                "en": "Inglese",
-                "it": "Italiano"
-            }
-        },
-        "heroSection": {
-            "tagline": "Dal 1978 servizi di alta qualità a prezzi convenienti!",
-            "searchForm": {
-                "pickup": {
-                    "label": "Partenza",
-                    "placeholder": "aeroporto, hotel, indirizzo..."
-                },
-                "dropoff": {
-                    "label": "Arrivo",
-                    "placeholder": "aeroporto, hotel, indirizzo..."
-                },
-                "passengers": {
-                    "label": "Passeggeri",
-                    "placeholder": "numero di passeggeri"
-                },
-                "buttonText": "OTTIENI PREVENTIVO IMMEDIATO"
-            },
-            "locations": {
-                "airport": "Aeroporti",
-                "cruisePorts": "Porti Crociere",
-                "trainStation": "Stazioni Ferroviarie",
-                "Hotel": "Hotel o indirizzo a Roma"
-            },
-            "note1": "Non paghi nulla ora",
-            "note2": "Conferma immediata della prenotazione",
-            "review": "Recensioni"
-        },
-        "services": {
-            "title": "I nostri servizi e vantaggi",
-            "description": "Offriamo una vasta gamma di servizi di trasporto per soddisfare le tue esigenze."
-        },
-
-        "premium_guest_support": {
-            "title": "Supporto Premium 24/7 per gli Ospiti",
-            "description": "Assistenza clienti per viaggi senza interruzioni, in qualsiasi momento. Discreta, immediata, sempre disponibile."
-        },
-        "services_guarantee": {
-            "title": "Servizi Garantiti al 100%",
-            "description": "Tutti i nostri veicoli sono completamente autorizzati, con aria condizionata e la massima copertura assicurativa."
-        },
-        "meet_and_greet": {
-            "title": "Accoglienza",
-            "description": "Il tuo autista ti aspetterà indipendentemente da ciò che accade."
-        },
-        "free_cancellation": {
-            "title": "Cancellazione Gratuita",
-            "description": "Fino a 24 ore prima del ritiro."
-        },
-
-        "how_it_works": {
-            "title": "Come funziona",
-            "step1": {
-                "title": "Selezione",
-                "description": "Seleziona i punti di partenza e arrivo, assicurati di aggiungere tutti i servizi di cui hai bisogno, controlla il costo e prenota."
-            },
-            "step2": {
-                "title": "Conferma",
-                "description": "Riceverai la conferma della prenotazione contenente i tuoi dati personali, il percorso e il nome e numero di telefono del tuo autista via email."
-            },
-            "step3": {
-                "title": "Incontra il tuo Autista",
-                "description": "Al punto di arrivo ti aspetterà il tuo autista con un cartello con il tuo nome, pronto a portarti a destinazione."
-            }
-        },
-        "day_tour": {
-            "title": "Tour in un giorno",
-            "introduction": "Fai il tour di una vita durante la vacanza della tua vita! Che tu stia cercando un’incredibile esperienza di degustazione di cibi e vini, visitare antiche rovine o esplorare incantevoli città in Italia, Civitavecchia Cab Service Rome Tours è la compagnia leader a Roma specializzata in tour privati giornalieri ed escursioni dalle principali città portuali italiane.",
-            "tour_example_title": "Esempio di tour: Roma in un giorno dal porto di Civitavecchia",
-            "customization": "Puoi scegliere i luoghi specifici che non vuoi perdere a Roma! Il nostro compito è capire cosa vuoi vedere e accompagnarti in auto o fermarci nei luoghi specifici per offrirti il tour più suggestivo ed esperienziale nella città eterna.",
-            "detailed_itinerary": "ESEMPIO: Pick up accanto alla tua nave da crociera alle 7:00 o 8:00 del mattino. Dopo circa 1 ora e mezza (a seconda del traffico) raggiungerai la tua prima tappa, ad esempio la visita a Piazza San Pietro, ricostruita e ridisegnata grazie a Gian Lorenzo Bernini tra il 1656 e il 1667. Si può continuare la visita alla seconda tappa: ti porteremo al Pantheon, poi proseguiremo il nostro tour attraverso Piazza Navona, costruita sul vecchio stadio di Domiziano che veniva usato per le competizioni atletiche. Oggi puoi ammirare la Fontana dei Quattro Fiumi, la Fontana di Nettuno e la Chiesa di Sant’Agnese in Agone nella piazza Navona. Una tappa da non perdere è il Colosseo (Anfiteatro Flavio). Passerai lungo i Fori Imperiali fino a Piazza Venezia, dove potrai ammirare l’Altare della Patria (la torta nuziale) e il balcone dal quale Benito Mussolini dichiarò la Seconda Guerra Mondiale contro Francia e Gran Bretagna. Poi, lungo Via del Corso, ti porteremo alla Fontana di Trevi, opera di Nicola Salvi, costruita nel XVIII secolo dopo aver vinto un concorso indetto da Papa Clemente XII. Successivamente ti guideremo verso Piazza di Spagna, dove potrai ammirare la famosa scalinata e la Fontana della Barcaccia di Pietro Bernini (padre di Gian Lorenzo), e ancora a Piazza del Popolo con il suo obelisco. Il tour si concluderà alle 15:30 / 16:00, quando rientreremo al porto di Civitavecchia. Sarai pronto per reimbarcarti e proseguire la tua crociera intorno alle 17:00.",
-            "pickup_time": "Pick up sotto la nave: 7:00 / 8:00",
-            "arrival_time": "Arrivo a Roma: 8:30 / 9:30",
-            "departure_time": "Partenza da Roma: 15:00 / 16:00 (a seconda dell’orario di partenza)",
-            "return_time": "Arrivo al porto: 16:00 / 17:00 (a seconda dell’orario di partenza)",
-            "recommendations_intro": "Prima volta a Roma? Non perdere queste tappe!",
-            "recommendation_1": "Colosseo",
-            "recommendation_2": "Pantheon",
-            "recommendation_3": "Piazza Navona",
-            "recommendation_4": "Il Vittoriano",
-            "recommendation_5": "Fontana di Trevi",
-            "recommendation_6": "Piazza di Spagna",
-            "recommendation_7": "San Pietro",
-            "recommendation_8": "Circo Massimo",
-            "recommendation_9": "Foro Romano",
-            "recommendation_10": "Terrazza del Gianicolo e Fontana dell’Acqua Paola",
-            "button_text": "Scopri di più"
-        },
-
-        "contactSection": {
-            "title": "Contattaci",
-            "call": {
-                "type": "Chiamata",
-                "value": "+39 06 523 72515"
-            },
-            "whatsapp": {
-                "type": "WhatsApp",
-                "value": "+39 06 523 72515"
-            },
-            "email": {
-                "type": "Email",
-                "value": "web@civitavecchiacabservice.com"
-            }
-        },
-        "footer": {
-            "siteMap": {
-                "feedback": "Feedback",
-                "tours": "Tour",
-                "contacts": "Contatti",
-                "travelAgencies": "Agenzie di viaggio"
-            },
-            "legal": {
-                "terms": "Termini e Condizioni",
-                "privacy": "Informativa sulla Privacy",
-                "cookies": "Informativa sui Cookie"
-            },
-            "companyInfo": {
-                "name": "Civitavecchia Cab Service",
-                "address": "Via Cesare Pascarella 29, 00153 - Roma, Italia",
-                "PIVA": "P.I : 11198811004"
-            },
-            "socialMedia": {
-                "facebook": "Facebook",
-                "instagram": "Instagram",
-                "twitter": "Twitter"
-            },
-            "extra": "Online"
-        }
+  "homepage": {
+    "header": {
+      "navigation": {
+        "home": "Home",
+        "feedback": "Feedback",
+        "tourPackage": "Pacchetti Tour",
+        "contacts": "Contatti"
+      },
+      "languageSelector": {
+        "en": "Inglese",
+        "it": "Italiano",
+        "fr": "Francese"
+      }
+    },
+    "heroSection": {
+      "tagline": "Viaggi istantanei, avventure infinite ti aspettano",
+      "searchForm": {
+        "pickup": "Partenza",
+        "dropoff": "Arrivo",
+        "passengers": "Numero di passeggeri",
+        "buttonText": "Calcola tariffa immediata"
+      },
+      "locations": {
+        "name1": "Torre Eiffel, Parigi",
+        "name2": "Museo del Louvre, Parigi",
+        "name3": "Palazzo di Versailles, Versailles",
+        "name4": "Mont Saint-Michel, Normandia",
+        "name5": "Costa Azzurra, Nizza",
+        "name6": "Castello di Chambord, Valle della Loira",
+        "name7": "Cattedrale di Notre-Dame, Parigi",
+        "name8": "Campi di lavanda della Provenza, Provenza",
+        "name9": "Pont du Gard, Nîmes",
+        "name10": "Disneyland Paris, Marne-la-Vallée",
+        "name11": "Sainte-Chapelle, Parigi",
+        "name12": "Arco di Trionfo, Parigi",
+        "name13": "Museo d'Orsay, Parigi",
+        "name14": "Giardini del Lussemburgo, Parigi",
+        "name15": "Basilica del Sacro Cuore, Parigi",
+        "name16": "Gole del Verdon, Provenza",
+        "name17": "Duna di Pilat, Arcachon",
+        "name18": "Castello di Fontainebleau, Fontainebleau",
+        "name19": "Città medievale di Carcassonne, Carcassonne",
+        "name20": "Palazzo dei Papi, Avignone"
+      }
     }
+  }
 }

@@ -24,11 +24,12 @@ export default function Home() {
                 <BookingForm></BookingForm>
             </section>
 
-            <Services />
+
+            {/* <Services />
             <HowitWorks />
             <DayTour />
             <Contact />
-            <Footer />
+            <Footer /> */}
         </section>
     );
 }

@@ -11,7 +11,6 @@ export default function Navbar() {
     const [showCompact, setShowCompact] = useState(false);
     const t = useTranslations("homepage.header.navigation");
     const locale = useLocale();
-    console.log(locale)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -34,9 +33,9 @@ export default function Navbar() {
                         <Link href={`/${locale}`}><Image className="w-16" src={logo} alt="Logo" height={150} width={150} /></Link>
                         <nav className="flex items-center gap-6 text-white font-xl">
                             <Link href={`/${locale}`}>{t("home")}</Link>
-                            <Link href={`/${locale}/feedback`}>{t("feedback")}</Link>
-                            <Link href={`/${locale}/tours`}>{t("tours")}</Link>
+                            <Link href={`/${locale}/tours`}>{t("tourPackage")}</Link>
                             <Link href={`/${locale}/contacts`}>{t("contacts")}</Link>
+                            <Link href={`/${locale}/feedback`}>{t("feedback")}</Link>
                             <SelectLocale className=" p-0  bg-transparent text-white" />
                             <Link href="tel:+8801712345678">
                                 <div className=" underline text-white hover:text-[#3F72AF] cursor-pointer">

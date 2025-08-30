@@ -23,6 +23,7 @@ const SelectLocale = ({className}:{className:string}) => {
         <fieldset className={className}>
             <select defaultValue={locale} onChange={handleLocaleChange} className="select bg-transparent text-white ">
                 <option className="text-black" value="en">{ t("en")}</option>
+                <option className="text-black" value="fr">{ t("fr")}</option>
                 <option className="text-black" value="it">{ t("it")}</option>
             </select>
         </fieldset>

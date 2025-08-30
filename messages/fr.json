@@ -1,0 +1,48 @@
+{
+  "homepage": {
+    "header": {
+      "navigation": {
+        "home": "Accueil",
+        "feedback": "Retour d'expérience",
+        "tourPackage": "Forfaits Tour",
+        "contacts": "Contacts"
+      },
+      "languageSelector": {
+        "en": "Anglais",
+        "it": "Italien",
+        "fr": "Français"
+      }
+    },
+    "heroSection": {
+      "tagline": "Voyages instantanés, aventures infinies vous attendent",
+      "searchForm": {
+        "pickup": "Point de départ",
+        "dropoff": "Destination",
+        "passengers": "Nombre de passagers",
+        "buttonText": "Obtenir un tarif instantané"
+      },
+      "locations": {
+        "name1": "Tour Eiffel, Paris",
+        "name2": "Musée du Louvre, Paris",
+        "name3": "Palais de Versailles, Versailles",
+        "name4": "Mont Saint-Michel, Normandie",
+        "name5": "Côte d'Azur, Nice",
+        "name6": "Château de Chambord, Vallée de la Loire",
+        "name7": "Cathédrale Notre-Dame, Paris",
+        "name8": "Champs de lavande de Provence, Provence",
+        "name9": "Pont du Gard, Nîmes",
+        "name10": "Disneyland Paris, Marne-la-Vallée",
+        "name11": "Sainte-Chapelle, Paris",
+        "name12": "Arc de Triomphe, Paris",
+        "name13": "Musée d'Orsay, Paris",
+        "name14": "Jardins du Luxembourg, Paris",
+        "name15": "Basilique du Sacré-Cœur, Paris",
+        "name16": "Gorges du Verdon, Provence",
+        "name17": "Dune du Pilat, Arcachon",
+        "name18": "Château de Fontainebleau, Fontainebleau",
+        "name19": "Cité médiévale de Carcassonne, Carcassonne",
+        "name20": "Palais des Papes, Avignon"
+      }
+    }
+  }
+}
