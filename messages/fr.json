@@ -1,48 +1,67 @@
 {
-  "homepage": {
-    "header": {
-      "navigation": {
-        "home": "Accueil",
-        "feedback": "Retour d'expérience",
-        "tourPackage": "Forfaits Tour",
-        "contacts": "Contacts"
-      },
-      "languageSelector": {
-        "en": "Anglais",
-        "it": "Italien",
-        "fr": "Français"
-      }
-    },
-    "heroSection": {
-      "tagline": "Voyages instantanés, aventures infinies vous attendent",
-      "searchForm": {
-        "pickup": "Point de départ",
-        "dropoff": "Destination",
-        "passengers": "Nombre de passagers",
-        "buttonText": "Obtenir un tarif instantané"
-      },
-      "locations": {
-        "name1": "Tour Eiffel, Paris",
-        "name2": "Musée du Louvre, Paris",
-        "name3": "Palais de Versailles, Versailles",
-        "name4": "Mont Saint-Michel, Normandie",
-        "name5": "Côte d'Azur, Nice",
-        "name6": "Château de Chambord, Vallée de la Loire",
-        "name7": "Cathédrale Notre-Dame, Paris",
-        "name8": "Champs de lavande de Provence, Provence",
-        "name9": "Pont du Gard, Nîmes",
-        "name10": "Disneyland Paris, Marne-la-Vallée",
-        "name11": "Sainte-Chapelle, Paris",
-        "name12": "Arc de Triomphe, Paris",
-        "name13": "Musée d'Orsay, Paris",
-        "name14": "Jardins du Luxembourg, Paris",
-        "name15": "Basilique du Sacré-Cœur, Paris",
-        "name16": "Gorges du Verdon, Provence",
-        "name17": "Dune du Pilat, Arcachon",
-        "name18": "Château de Fontainebleau, Fontainebleau",
-        "name19": "Cité médiévale de Carcassonne, Carcassonne",
-        "name20": "Palais des Papes, Avignon"
-      }
+    "homepage": {
+        "header": {
+            "navigation": {
+                "home": "Accueil",
+                "feedback": "Retour d'expérience",
+                "tourPackage": "Forfaits Tour",
+                "contacts": "Contacts"
+            },
+            "languageSelector": {
+                "en": "Anglais",
+                "it": "Italien",
+                "fr": "Français"
+            }
+        },
+        "heroSection": {
+            "tagline": "Voyages instantanés, aventures infinies vous attendent",
+            "searchForm": {
+                "pickup": "Point de départ",
+                "dropoff": "Destination",
+                "passengers": "Nombre de passagers",
+                "buttonText": "Obtenir un tarif instantané"
+            },
+            "locations": {
+                "name1": "Tour Eiffel, Paris",
+                "name2": "Musée du Louvre, Paris",
+                "name3": "Palais de Versailles, Versailles",
+                "name4": "Mont Saint-Michel, Normandie",
+                "name5": "Côte d'Azur, Nice",
+                "name6": "Château de Chambord, Vallée de la Loire",
+                "name7": "Cathédrale Notre-Dame, Paris",
+                "name8": "Champs de lavande de Provence, Provence",
+                "name9": "Pont du Gard, Nîmes",
+                "name10": "Disneyland Paris, Marne-la-Vallée",
+                "name11": "Sainte-Chapelle, Paris",
+                "name12": "Arc de Triomphe, Paris",
+                "name13": "Musée d'Orsay, Paris",
+                "name14": "Jardins du Luxembourg, Paris",
+                "name15": "Basilique du Sacré-Cœur, Paris",
+                "name16": "Gorges du Verdon, Provence",
+                "name17": "Dune du Pilat, Arcachon",
+                "name18": "Château de Fontainebleau, Fontainebleau",
+                "name19": "Cité médiévale de Carcassonne, Carcassonne",
+                "name20": "Palais des Papes, Avignon"
+            }
+        },
+        "howItWorks": {
+            "sectionTitle": "Votre trajet, simplifié en 4 étapes",
+            "step1": {
+                "title": "Sélectionnez le type de course",
+                "description": "Décidez si vous souhaitez une course instantanée immédiatement ou planifier une visite détaillée pour une date ultérieure. Choisissez l'option qui correspond le mieux à votre emploi du temps et à vos besoins de voyage."
+            },
+            "step2": {
+                "title": "Choisissez le lieu / la date",
+                "description": "Indiquez vos points de départ et d'arrivée ainsi que la date et l'heure. Cela garantit que votre course ou votre visite est parfaitement programmée et sans retard."
+            },
+            "step3": {
+                "title": "Confirmez la réservation et le paiement",
+                "description": "Vérifiez tous les détails de la course ou du tour, consultez le tarif et complétez votre réservation en toute sécurité via notre système de paiement. Votre réservation est confirmée instantanément."
+            },
+            "step4": {
+                "title": "Profitez de votre trajet",
+                "description": "Asseyez-vous et détendez-vous pendant votre voyage. Qu'il s'agisse d'une course instantanée ou d'une visite planifiée, profitez d'un trajet fluide et mémorable avec nous."
+            }
+        }
     }
-  }
 }

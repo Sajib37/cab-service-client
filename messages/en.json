@@ -44,6 +44,25 @@
                 "name19": "Carcassonne Medieval City, Carcassonne",
                 "name20": "Palais des Papes, Avignon"
             }
+        },
+        "howItWorks": {
+            "sectionTitle": "Your Ride, Simplified in 4 Steps",
+            "step1": {
+                "title": "Select Ride Type",
+                "description": "Decide whether you want an instant ride immediately or plan a detailed tour for a future date. Choose the option that best fits your schedule and travel needs."
+            },
+            "step2": {
+                "title": "Choose Location / Date",
+                "description": "Provide your pickup and drop-off locations along with the date and time. This ensures your ride or tour is perfectly scheduled and avoids any delays."
+            },
+            "step3": {
+                "title": "Confirm Booking & Payment",
+                "description": "Review all ride or tour details, check the fare, and complete your booking securely through our payment system. Your reservation is confirmed instantly."
+            },
+            "step4": {
+                "title": "Enjoy Your Ride",
+                "description": "Sit back and relax while you travel comfortably. Whether it’s an instant ride or a planned tour, enjoy a seamless and memorable journey with us."
+            }
         }
     }
 }

@@ -54,10 +54,10 @@ export default function Navbar() {
                         <Image src={logo} className="w-12" alt="Logo" height={150} width={150} />
                         <nav className="flex items-center font-semibold gap-6 text-black">
                             
-                            <Link href="feedback">{t("feedback")}</Link>
-                            <Link href="tours">{t("tours")}</Link>
-                            <Link href="contacts">{t("contacts")}</Link>
-                            <Link href="travelAgencies">{t("travelAgencies")}</Link>
+                            <Link href={`/${locale}`}>{t("home")}</Link>
+                            <Link href={`/${locale}/tours`}>{t("tourPackage")}</Link>
+                            <Link href={`/${locale}/contacts`}>{t("contacts")}</Link>
+                            <Link href={`/${locale}/feedback`}>{t("feedback")}</Link>
                             <SelectLocale className=" rounded-none bg-black p-0   text-white" />
                             <Link href="tel:+8801712345678">
                                 <div className=" underline text-black hover:text-[#3F72AF] cursor-pointer">

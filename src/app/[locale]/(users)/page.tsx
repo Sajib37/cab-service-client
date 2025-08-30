@@ -25,8 +25,11 @@ export default function Home() {
             </section>
 
 
-            {/* <Services />
             <HowitWorks />
+
+            
+            {/* <Services />
+            
             <DayTour />
             <Contact />
             <Footer /> */}
